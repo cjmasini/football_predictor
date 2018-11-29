@@ -180,7 +180,7 @@ def make_row(team_stats, id0, id1, glicko, team_results):
     row = pd.DataFrame(row, index=[0])
     return row
 
-def update_stats(team_stats, row, glicko):
+def update_stats(team_stats, row, glicko, team_results):
     team_stats[row.Winning]['games'] += 1
     team_stats[row.Losing]['games'] += 1
 
@@ -235,31 +235,40 @@ def update_stats(team_stats, row, glicko):
     team_stats[row.Losing]['num_turnovers_against'] += int(row.Winning_TO)
     team_stats[row.Losing]['penalty_yards_against'] += int(row.Winning_Pen_Yards)
     team_stats[row.Losing]['time_of_possession_against'] += int(row.Winning_TOP)
-    return team_stats, glicko
+    return team_stats, glicko, team_results
 
-df = pd.read_csv('data.csv')
-df = df[df['Year'] == 2017]
-team_ids = set(df['Winning']).union(df['Losing'])
-#print(team_ids)
-team_results = {}
-team_stats = {}
-glicko = dict(zip(list(team_ids), [Player() for _ in range(len(team_ids))]))
-#print(team_ids)
-for id in team_ids:
-    team_results[id] = []
-    team_stats[id] = {'games':0,'points':0,'num_passes':0,'pass_yards':0,'num_rushes':0,'rush_yards':0,'num_plays':0,'total_yards':0,'num_turnovers':0,'penalty_yards':0,'time_of_possession':0,'points_against':0,'num_passes_against':0,'pass_yards_against':0,'num_rushes_against':0,'rush_yards_against':0,'num_plays_against':0,'total_yards_against':0,'num_turnovers_against':0,'penalty_yards_against':0,'time_of_possession_against':0}
-data_matrix = pd.DataFrame()
-results_matrix = pd.DataFrame()
-for row in df.itertuples():
-    id0 = row.Winning if row.Winning < row.Losing else row.Losing
-    id1 = row.Winning if row.Winning > row.Losing else row.Losing
-    data_matrix = data_matrix.append(make_row(team_stats,id0,id1,glicko,team_results))
-    results_matrix = results_matrix.append(pd.DataFrame({'id0':id0,'id1':id1,'points_0':(row.Winning_Points if row.Winning < row.Losing else row.Losing_Points), 'points_1':(row.Winning_Points if row.Winning > row.Losing else row.Losing_Points)}, index=[0]))
-    team_stats, glicko = update_stats(team_stats, row, glicko)
-    #print(update_stats(team_stats, row), 0 if row.Winning < row.Losing else 1)
-#print(team_stats['Michigan State'])
-#print(data_matrix.iloc[715])
-#print(results_matrix.iloc[715])
-data_matrix.to_csv("2017dataMatrix.csv")
-results_matrix.to_csv("2017resultsMatrix.csv")
+
+def get_data_matrix(year):
+    df = pd.read_csv('data.csv')
+    df = df[df['Year'].isin([year-1,year])]
+    team_ids = set(df['Winning']).union(df['Losing'])
+    team_results = {}
+    team_stats = {}
+    glicko = dict(zip(list(team_ids), [Player() for _ in range(len(team_ids))]))
+    for id in team_ids:
+        team_results[id] = []
+        team_stats[id] = {'games':0,'points':0,'num_passes':0,'pass_yards':0,'num_rushes':0,'rush_yards':0,'num_plays':0,'total_yards':0,'num_turnovers':0,'penalty_yards':0,'time_of_possession':0,'points_against':0,'num_passes_against':0,'pass_yards_against':0,'num_rushes_against':0,'rush_yards_against':0,'num_plays_against':0,'total_yards_against':0,'num_turnovers_against':0,'penalty_yards_against':0,'time_of_possession_against':0}
+    data_matrix = pd.DataFrame()
+    results_matrix = pd.DataFrame()
+    for row in df.itertuples():
+        id0 = row.Winning if row.Winning < row.Losing else row.Losing
+        id1 = row.Winning if row.Winning > row.Losing else row.Losing
+        if row.Year == year:
+            data_matrix = data_matrix.append(make_row(team_stats,id0,id1,glicko,team_results))
+        results_matrix = results_matrix.append(pd.DataFrame({'id0':id0,'id1':id1,'points_0':(row.Winning_Points if row.Winning < row.Losing else row.Losing_Points), 'points_1':(row.Winning_Points if row.Winning > row.Losing else row.Losing_Points)}, index=[0]))
+        team_stats, glicko, team_results = update_stats(team_stats, row, glicko, team_results)
+    data_matrix.to_csv(str(year) + "dataMatrix.csv")
+    results_matrix.to_csv(str(year) + "resultsMatrix.csv")
+    print(str(year) + ": Done")
+    return data_matrix, results_matrix
+
+combined_data_matrix = pd.DataFrame()
+combined_results_matrix = pd.DataFrame()
+for i in range(2012, 2019):
+    dm, rm = get_data_matrix(i)
+    combined_data_matrix = combined_data_matrix.append(dm)
+    combined_results_matrix = combined_results_matrix.append(rm)
+combined_data_matrix.to_csv("2012-2018_data_matrix.csv")
+combined_results_matrix.to_csv("2012-2018_results_matrix.csv")
+
 
