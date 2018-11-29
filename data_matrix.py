@@ -255,7 +255,7 @@ def get_data_matrix(year):
         id1 = row.Winning if row.Winning > row.Losing else row.Losing
         if row.Year == year:
             data_matrix = data_matrix.append(make_row(team_stats,id0,id1,glicko,team_results))
-        results_matrix = results_matrix.append(pd.DataFrame({'id0':id0,'id1':id1,'points_0':(row.Winning_Points if row.Winning < row.Losing else row.Losing_Points), 'points_1':(row.Winning_Points if row.Winning > row.Losing else row.Losing_Points)}, index=[0]))
+            results_matrix = results_matrix.append(pd.DataFrame({'id0':id0,'id1':id1,'points_0':(row.Winning_Points if row.Winning < row.Losing else row.Losing_Points), 'points_1':(row.Winning_Points if row.Winning > row.Losing else row.Losing_Points)}, index=[0]))
         team_stats, glicko, team_results = update_stats(team_stats, row, glicko, team_results)
     data_matrix.to_csv(str(year) + "dataMatrix.csv")
     results_matrix.to_csv(str(year) + "resultsMatrix.csv")

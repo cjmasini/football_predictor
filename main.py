@@ -2,6 +2,8 @@ import numpy as np
 import random
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
+from readin import readin
+import numpy as np
 
 class Network():
 
