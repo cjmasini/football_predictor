@@ -4,6 +4,7 @@ def readin():
     stats=[]
     for line in stat_file:
         line = line.strip().split(",")[1:43]+line.strip().split(",")[-1:-25:-1]
+        # for new input: line = line.strip().split(",")[3:]
         line = np.array(list(map(float,line)))    #only take the score part
         #line = line - np.mean(line)
         stats.append(line)    
