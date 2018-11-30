@@ -46,13 +46,17 @@ class Network():
         
         # define accuracy score (fitness score):
         score = 0
-        for i in range(x_test.shape[0]):        
-            test_diff = (y_test[i][0]-y_test[i][1])/(y_test[i][0]+y_test[i][1])
-            print("test_diff="+str(test_diff))
+        for i in range(x_test.shape[0]):
             pred_diff = (pred[i][0]-pred[i][1])/(pred[i][0]+pred[i][1])
-            print("pred_diff="+str(pred_diff))
-            score += pred_diff/test_diff    
             
+            if(y_test[i][0]-y_test[i][1])==0:
+                score += 1-abs(pred_diff)
+                 
+            else:    
+                test_diff = (y_test[i][0]-y_test[i][1])/(y_test[i][0]+y_test[i][1])
+                score += pred_diff/test_diff 
+              
+        print(self.network)
         score =score/x_test.shape[0]
         self.accuracy = score
         print("score = "+str(score))
