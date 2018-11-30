@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import math
 from glicko2 import Player
 
 def make_row(team_stats, id0, id1, glicko, team_results):
@@ -250,25 +251,33 @@ def get_data_matrix(year):
         team_stats[id] = {'games':0,'points':0,'num_passes':0,'pass_yards':0,'num_rushes':0,'rush_yards':0,'num_plays':0,'total_yards':0,'num_turnovers':0,'penalty_yards':0,'time_of_possession':0,'points_against':0,'num_passes_against':0,'pass_yards_against':0,'num_rushes_against':0,'rush_yards_against':0,'num_plays_against':0,'total_yards_against':0,'num_turnovers_against':0,'penalty_yards_against':0,'time_of_possession_against':0}
     data_matrix = pd.DataFrame()
     results_matrix = pd.DataFrame()
+    vegas_predictions = pd.DataFrame()
     for row in df.itertuples():
         id0 = row.Winning if row.Winning < row.Losing else row.Losing
         id1 = row.Winning if row.Winning > row.Losing else row.Losing
         if row.Year == year:
             data_matrix = data_matrix.append(make_row(team_stats,id0,id1,glicko,team_results))
             results_matrix = results_matrix.append(pd.DataFrame({'id0':id0,'id1':id1,'points_0':(row.Winning_Points if row.Winning < row.Losing else row.Losing_Points), 'points_1':(row.Winning_Points if row.Winning > row.Losing else row.Losing_Points)}, index=[0]))
+            vegas_predictions = vegas_predictions.append(pd.DataFrame({'id0':id0,"id1":id1,'points_0':int((row.Winning_Points if row.Winning < row.Losing else row.Losing_Points)), 'points_1':int((row.Winning_Points if row.Winning > row.Losing else row.Losing_Points)),"spread":(1 if row.WinningFU == "F" else -1)*float(row.Spread),"over_under":(row.Over_Under if isinstance(row.Over_Under, str) else "None")}, index=[0]))
         team_stats, glicko, team_results = update_stats(team_stats, row, glicko, team_results)
     data_matrix.to_csv(str(year) + "dataMatrix.csv")
     results_matrix.to_csv(str(year) + "resultsMatrix.csv")
+    vegas_predictions.to_csv(str(year) + "vegasPredictions.csv")
     print(str(year) + ": Done")
-    return data_matrix, results_matrix
+    return data_matrix, results_matrix, vegas_predictions
 
 combined_data_matrix = pd.DataFrame()
 combined_results_matrix = pd.DataFrame()
+combined_vegas_matrix = pd.DataFrame()
 for i in range(2012, 2019):
-    dm, rm = get_data_matrix(i)
+    dm, rm, vm = get_data_matrix(i)
     combined_data_matrix = combined_data_matrix.append(dm)
     combined_results_matrix = combined_results_matrix.append(rm)
+    combined_vegas_matrix = combined_vegas_matrix.append(vm)
 combined_data_matrix.to_csv("2012-2018_data_matrix.csv")
 combined_results_matrix.to_csv("2012-2018_results_matrix.csv")
+combined_vegas_matrix.to_csv("2012-2018_vegas_predictions.csv")
+
+
 
 

@@ -1,0 +1,713 @@
+,id0,id1,points_0,points_1,spread,over_under
+0,North Carolina,South Carolina,10,27,12.0,None
+0,Minnesota,UNLV,51,23,13.5,None
+0,Bowling Green,Tulsa,34,7,2.5,None
+0,Akron,UCF,7,38,23.5,None
+0,Utah,Utah State,30,26,1.0,None
+0,Mississippi,Vanderbilt,39,35,3.0,None
+0,Fresno State,Rutgers,52,51,11.0,None
+0,Hawaii,Southern Cal,13,30,24.0,None
+0,Michigan State,W. Michigan,26,13,28.0,None
+0,FAU,"Miami, FL",6,34,31.0,None
+0,SMU,Texas Tech,23,41,4.0,None
+0,Buffalo,Ohio State,20,40,34.0,None
+0,Massachusetts,Wisconsin,0,45,43.0,None
+0,Cincinnati,Purdue,42,7,10.5,None
+0,Florida,Toledo,24,6,22.0,None
+0,FIU,Maryland,10,43,21.0,None
+0,La. Tech,N.C. State,14,40,14.0,None
+0,Rice,Texas A&M,28,52,28.0,None
+0,Mississippi State,Oklahoma State,3,21,12.5,None
+0,Notre Dame,Temple,28,6,28.0,None
+0,C. Michigan,Michigan,9,59,31.5,None
+0,Penn State,Syracuse,23,17,8.0,None
+0,BYU,Virginia,16,19,-3.0,None
+0,Iowa,N. Illinois,27,30,-2.5,None
+0,Arkansas,La.-Lafayette,34,14,10.0,None
+0,Alabama,Virginia Tech,35,10,21.5,None
+0,La.-Monroe,Oklahoma,0,34,22.5,None
+0,Auburn,Washington State,31,24,14.0,None
+0,Idaho,North Texas,6,40,16.5,None
+0,Marshall,"Miami, OH",52,14,20.5,None
+0,Southern Miss,Texas State,15,22,-8.0,None
+0,Troy,UAB,34,31,4.5,None
+0,Kentucky,W. Kentucky,26,35,-4.5,None
+0,Clemson,Georgia,38,35,-2.5,None
+0,New Mexico,Texas,7,56,44.0,None
+0,Nebraska,Wyoming,37,34,31.0,None
+0,LSU,TCU,37,27,4.0,None
+0,Boise State,Washington,6,38,4.0,None
+0,Nevada,UCLA,20,58,20.5,None
+0,California,Northwestern,30,44,6.5,None
+0,Louisville,Ohio,49,7,21.0,None
+0,Colorado,Colorado State,41,27,-3.0,None
+0,Florida State,Pittsburgh,41,13,12.0,None
+0,East Carolina,FAU,31,13,19.5,None
+0,Boston College,Wake Forest,24,10,2.5,None
+0,FIU,UCF,0,38,24.0,None
+0,Florida,"Miami, FL",16,21,-3.0,None
+0,Kentucky,"Miami, OH",41,7,17.5,None
+0,Michigan State,South Florida,21,6,21.5,None
+0,E. Michigan,Penn State,7,45,28.0,None
+0,Houston,Temple,22,13,3.0,None
+0,Cincinnati,Illinois,17,45,-8.5,None
+0,Bowling Green,Kent State,41,22,7.0,None
+0,Tennessee,W. Kentucky,52,20,14.0,None
+0,MTSU,North Carolina,20,40,19.5,None
+0,Army,Ball State,14,40,10.0,None
+0,Oregon,Virginia,59,10,26.5,None
+0,Ohio State,San Diego State,42,7,28.0,None
+0,Baylor,Buffalo,70,13,28.5,None
+0,Missouri,Toledo,38,23,14.5,None
+0,Air Force,Utah State,20,52,8.0,None
+0,South Alabama,Tulane,41,39,-4.5,None
+0,Idaho,Wyoming,10,42,28.5,None
+0,Georgia,South Carolina,41,30,3.0,None
+0,Duke,Memphis,28,14,4.0,None
+0,Northwestern,Syracuse,48,27,17.0,None
+0,Nebraska,Southern Miss,56,13,28.0,None
+0,Indiana,Navy,35,41,-12.5,None
+0,Kansas State,La.-Lafayette,48,27,12.5,None
+0,BYU,Texas,40,21,-7.5,None
+0,Oklahoma,West Virginia,16,7,21.5,None
+0,North Texas,Ohio,21,27,3.5,None
+0,Colorado State,Tulsa,27,30,14.0,None
+0,Arkansas State,Auburn,9,38,10.5,None
+0,LSU,UAB,56,17,34.5,None
+0,Michigan,Notre Dame,41,30,4.5,None
+0,Minnesota,New Mexico State,44,21,16.0,None
+0,Hawaii,Oregon State,14,33,27.0,None
+0,New Mexico,UTEP,42,35,-7.0,None
+0,Southern Cal,Washington State,7,10,-16.0,None
+0,Arizona,UNLV,58,13,14.0,None
+0,San Jose State,Stanford,13,34,24.5,None
+0,TCU,Texas Tech,10,20,-3.0,None
+0,Arkansas State,Troy,41,34,6.0,None
+0,Air Force,Boise State,20,42,23.5,None
+0,Army,Stanford,20,34,30.5,None
+0,Kentucky,Louisville,13,27,13.5,None
+0,Akron,Michigan,24,28,35.5,None
+0,Oklahoma,Tulsa,51,20,23.5,None
+0,Nebraska,UCLA,21,41,-0.0,None
+0,Bowling Green,Indiana,10,42,2.5,None
+0,East Carolina,Virginia Tech,10,15,8.0,None
+0,Arkansas,Southern Miss,24,3,24.5,None
+0,La.-Monroe,Wake Forest,21,19,-1.5,None
+0,New Mexico,Pittsburgh,27,49,21.5,None
+0,E. Michigan,Rutgers,10,28,28.0,None
+0,Boston College,Southern Cal,7,35,14.5,None
+0,Alabama,Texas A&M,49,42,8.0,None
+0,Oregon,Tennessee,59,14,28.0,None
+0,Florida State,Nevada,62,7,36.0,None
+0,Duke,Georgia Tech,14,38,9.0,None
+0,Ball State,North Texas,27,34,-3.0,None
+0,Idaho,N. Illinois,35,45,30.0,None
+0,Illinois,Washington,24,34,10.5,None
+0,Iowa,Iowa State,27,21,-0.0,None
+0,Penn State,UCF,31,34,-4.5,None
+0,California,Ohio State,34,52,13.5,None
+0,Kent State,LSU,13,45,36.0,None
+0,South Carolina,Vanderbilt,35,25,12.5,None
+0,Auburn,Mississippi State,24,20,6.5,None
+0,FAU,South Florida,28,10,-12.5,None
+0,Kansas State,Massachusetts,37,7,37.5,None
+0,MTSU,Memphis,17,15,8.0,None
+0,South Alabama,W. Kentucky,31,24,7.0,None
+0,Connecticut,Maryland,21,32,5.5,None
+0,Kansas,Rice,14,23,6.5,None
+0,Notre Dame,Purdue,31,24,17.0,None
+0,Mississippi,Texas,44,23,-2.0,None
+0,New Mexico State,UTEP,21,41,4.0,None
+0,Marshall,Ohio,31,34,-7.5,None
+0,Northwestern,W. Michigan,34,17,28.5,None
+0,Oregon State,Utah,51,48,-3.5,None
+0,C. Michigan,UNLV,21,31,7.5,None
+0,Arizona State,Wisconsin,32,30,7.0,None
+0,Clemson,N.C. State,26,14,13.5,None
+0,Boise State,Fresno State,40,41,3.5,None
+0,FIU,Louisville,0,72,41.0,None
+0,Georgia Tech,North Carolina,28,20,7.0,None
+0,Massachusetts,Vanderbilt,7,24,29.5,None
+0,Minnesota,San Jose State,43,24,3.5,None
+0,Marshall,Virginia Tech,21,29,8.5,None
+0,Army,Wake Forest,11,25,2.5,None
+0,C. Michigan,Toledo,17,38,13.5,None
+0,FAU,MTSU,35,42,3.0,None
+0,Iowa,W. Michigan,59,3,16.5,None
+0,Kansas,La. Tech,13,10,10.5,None
+0,Georgia,North Texas,45,21,33.0,None
+0,Duke,Pittsburgh,55,58,4.5,None
+0,Syracuse,Tulane,52,17,17.5,None
+0,Ball State,E. Michigan,51,20,10.0,None
+0,Houston,Rice,31,26,3.0,None
+0,Florida,Tennessee,31,17,16.5,None
+0,Michigan State,Notre Dame,13,17,4.0,None
+0,Purdue,Wisconsin,10,41,23.0,None
+0,Southern Cal,Utah State,17,14,7.0,None
+0,Maryland,West Virginia,37,0,4.0,None
+0,Arkansas,Rutgers,24,28,1.0,None
+0,Kent State,Penn State,0,34,23.0,None
+0,Baylor,La.-Monroe,70,7,30.0,None
+0,Cincinnati,"Miami, OH",14,0,24.5,None
+0,Arkansas State,Memphis,7,31,-4.0,None
+0,Akron,La.-Lafayette,30,35,7.5,None
+0,Alabama,Colorado State,31,6,40.0,None
+0,Arizona State,Stanford,28,42,7.0,None
+0,SMU,Texas A&M,13,42,28.0,None
+0,Texas State,Texas Tech,7,33,27.0,None
+0,Oregon State,San Diego State,34,30,7.0,None
+0,Mississippi State,Troy,62,7,13.0,None
+0,Auburn,LSU,21,35,17.5,None
+0,Connecticut,Michigan,21,24,19.5,None
+0,Indiana,Missouri,28,45,2.5,None
+0,Kansas State,Texas,21,31,6.0,None
+0,Hawaii,Nevada,9,31,6.0,None
+0,BYU,Utah,13,20,-7.0,None
+0,Air Force,Wyoming,23,56,4.5,None
+0,New Mexico State,UCLA,13,59,44.5,None
+0,Idaho,Washington State,0,42,31.5,None
+0,Georgia Tech,Virginia Tech,10,17,-7.0,None
+0,Iowa State,Tulsa,38,21,-3.0,None
+0,San Jose State,Utah State,12,40,10.0,None
+0,BYU,MTSU,37,10,23.5,None
+0,Oklahoma State,West Virginia,21,30,-19.5,None
+0,South Carolina,UCF,28,25,6.5,None
+0,"Miami, FL",South Florida,49,21,17.5,None
+0,Illinois,"Miami, OH",50,14,28.0,None
+0,N. Illinois,Purdue,55,24,4.0,None
+0,SMU,TCU,17,48,17.0,None
+0,South Alabama,Tennessee,24,31,16.5,None
+0,East Carolina,North Carolina,55,31,-12.5,None
+0,Pittsburgh,Virginia,14,3,6.0,None
+0,Navy,W. Kentucky,7,19,-3.5,None
+0,Akron,Bowling Green,14,31,-14.5,None
+0,Duke,Troy,38,31,13.0,None
+0,Colorado  ,Oregon State,17,44,12.0,None
+0,Ball State,Toledo,31,24,1.5,None
+0,Clemson,Wake Forest,56,7,28.5,None
+0,Georgia,LSU,44,41,3.0,None
+0,Boston College,Florida State,34,48,24.0,None
+0,Notre Dame,Oklahoma,21,35,4.0,None
+0,Colorado State,UTEP,59,42,14.0,None
+0,Iowa,Minnesota,23,7,2.5,None
+0,C. Michigan,N.C. State,14,48,23.5,None
+0,Buffalo,Connecticut,41,12,-1.0,None
+0,Army,La. Tech,35,16,-3.5,None
+0,Idaho,Temple,26,24,-7.5,None
+0,Alabama,Mississippi  ,25,0,14.0,None
+0,Arkansas,Texas A&M,33,45,14.0,None
+0,Arizona  ,Washington,13,31,9.5,None
+0,Florida  ,Kentucky,24,7,11.0,None
+0,Texas State,Wyoming,42,21,-10.5,None
+0,La.-Monroe,Tulane,14,31,-12.5,None
+0,Kent State,W. Michigan,32,14,2.5,None
+0,Arkansas State,Missouri,19,41,22.0,None
+0,UAB,Vanderbilt,24,52,20.0,None
+0,Ohio State,Wisconsin,31,24,7.0,None
+0,New Mexico State,San Diego State,16,26,16.5,None
+0,New Mexico,UNLV,42,56,-1.5,None
+0,Air Force,Nevada,42,45,11.5,None
+0,Stanford,Washington State,55,17,9.5,None
+0,Boise State,Southern Miss,60,7,29.0,None
+0,California,Oregon,16,55,39.0,None
+0,Arizona State,Southern Cal,62,41,4.0,None
+0,Fresno State,Hawaii,42,37,17.0,None
+0,Iowa State,Texas,30,31,7.0,None
+0,La.-Monroe,W. Kentucky,10,31,7.5,None
+0,UCLA,Utah,34,27,6.0,None
+0,BYU,Utah State,31,14,-6.0,None
+0,Nevada,San Diego State,44,51,6.0,None
+0,Air Force,Navy,10,28,13.5,None
+0,Louisville,Temple,30,7,33.0,None
+0,Florida State,Maryland,63,0,17.0,None
+0,Kansas,Texas Tech,16,54,16.5,None
+0,Indiana,Penn State,44,24,-3.5,None
+0,Illinois,Nebraska,19,39,8.5,None
+0,Ball State,Virginia,48,27,-3.5,None
+0,Buffalo,E. Michigan,42,14,13.0,None
+0,Iowa,Michigan State,14,26,-2.0,None
+0,Rutgers,SMU,55,52,4.0,None
+0,North Carolina,Virginia Tech,17,27,8.0,None
+0,Army,Boston College,27,48,11.5,None
+0,C. Michigan,"Miami, OH",21,9,3.0,None
+0,South Alabama,Troy,33,34,3.5,None
+0,Akron,Ohio,3,43,3.0,None
+0,FAU,UAB,37,23,-3.5,None
+0,Toledo,W. Michigan,47,20,23.5,None
+0,Clemson,Syracuse,49,14,13.5,None
+0,Georgia,Tennessee,34,31,13.5,None
+0,Georgia Tech,"Miami, FL",30,45,6.0,None
+0,Michigan,Minnesota,42,13,18.5,None
+0,Kansas State,Oklahoma State,29,33,13.5,None
+0,N.C. State,Wake Forest,13,28,-7.5,None
+0,Bowling Green,Massachusetts,28,7,27.0,None
+0,Rice,Tulsa,30,27,-3.0,None
+0,Kent State,N. Illinois,24,38,8.5,None
+0,East Carolina,MTSU,24,17,7.5,None
+0,North Texas,Tulane,21,24,-3.0,None
+0,California,Washington State,22,44,1.5,None
+0,FIU,Southern Miss,24,23,-17.0,None
+0,Memphis,UCF,17,24,10.0,None
+0,Fresno State,Idaho,61,14,27.5,None
+0,Colorado,Oregon,16,57,39.0,None
+0,LSU,Mississippi State,59,26,7.0,None
+0,Oklahoma,TCU,20,17,10.5,None
+0,Arkansas,Florida,10,30,13.0,None
+0,Auburn,Mississippi,30,22,-2.5,None
+0,Cincinnati,South Florida,20,26,-11.0,None
+0,New Mexico,New Mexico State,66,17,12.0,None
+0,La.-Lafayette,Texas State,48,24,11.0,None
+0,Kentucky,South Carolina,28,35,21.5,None
+0,Arizona State,Notre Dame,34,37,-6.5,None
+0,Missouri,Vanderbilt,51,28,2.5,None
+0,La. Tech,UTEP,38,35,2.0,None
+0,Northwestern,Ohio State,30,40,6.5,None
+0,Baylor,West Virginia,73,42,30.0,None
+0,Stanford,Washington  ,31,28,9.0,None
+0,Hawaii,San Jose State,27,37,3.5,None
+0,Louisville,Rutgers,24,10,19.0,None
+0,Air Force,San Diego State,20,27,3.5,None
+0,Arizona,Southern Cal,31,38,5.5,None
+0,Cincinnati,Temple,38,20,21.0,None
+0,Georgia,Missouri,26,41,-6.5,None
+0,Oklahoma  ,Texas,20,36,-13.5,None
+0,Iowa State,Texas Tech,35,42,14.5,None
+0,Pittsburgh,Virginia Tech,9,19,7.0,None
+0,Connecticut,South Florida,10,13,-4.0,None
+0,Indiana,Michigan State,28,42,10.0,None
+0,Houston,Memphis,25,15,8.0,None
+0,Army,E. Michigan,50,25,10.0,None
+0,Nebraska,Purdue,44,7,14.0,None
+0,Kansas,TCU,17,27,24.5,None
+0,Arkansas,South Carolina,7,52,5.0,None
+0,Duke,Navy,35,7,4.0,None
+0,C. Michigan,"Miami, OH",26,23,-20.0,None
+0,Buffalo,W. Michigan,33,0,10.0,None
+0,Massachusetts,"Miami, OH",17,10,6.5,None
+0,Ball State,Kent State,27,24,14.0,None
+0,Boston College,Clemson,14,24,24.0,None
+0,Florida,LSU,6,17,8.0,None
+0,Baylor,Kansas State,35,25,17.0,None
+0,Northwestern,Wisconsin,6,35,11.0,None
+0,Colorado State,San Jose State,27,34,-3.5,None
+0,Maryland,Virginia,27,26,6.0,None
+0,N.C. State,Syracuse,10,24,-6.5,None
+0,East Carolina,Tulane,33,36,-13.5,None
+0,New Mexico,Wyoming,31,38,12.5,None
+0,Oregon,Washington,45,24,13.5,None
+0,Michigan  ,Penn State,40,43,-2.5,None
+0,Akron,N. Illinois,20,27,24.0,None
+0,FAU,Marshall,23,24,10.0,None
+0,Stanford,Utah,21,27,-7.5,None
+0,Alabama,Kentucky,48,7,26.5,None
+0,MTSU,North Texas,7,34,6.5,None
+0,BYU,Georgia Tech,38,20,7.5,None
+0,La.-Monroe,Texas State,21,14,-6.0,None
+0,Arkansas State,Idaho,48,24,27.0,None
+0,Bowling Green,Mississippi State,20,21,11.5,None
+0,FIU,UAB,24,27,6.0,None
+0,Boise State,Utah State,34,23,5.5,None
+0,Hawaii,UNLV,37,39,7.5,None
+0,Tulsa,UTEP,34,20,10.0,None
+0,Mississippi,Texas A&M,38,41,7.0,None
+0,Arizona State,Colorado,54,13,28.5,None
+0,California,UCLA,10,37,26.5,None
+0,Oregon State,Washington State,52,24,2.5,None
+0,La.-Lafayette,W. Kentucky,37,20,-3.0,None
+0,"Miami, FL",North Carolina,27,23,9.5,None
+0,Louisville,UCF,35,38,-14.0,None
+0,South Carolina,Tennessee,21,23,-7.5,None
+0,Georgia,Vanderbilt,27,31,-7.0,None
+0,Texas Tech,West Virginia,37,27,4.0,None
+0,Oklahoma State,TCU,24,10,6.5,None
+0,Minnesota,Northwestern,20,17,-12.5,None
+0,Michigan State,Purdue,14,0,28.0,None
+0,East Carolina,Southern Miss,55,14,24.0,None
+0,Memphis,SMU,29,34,-3.5,None
+0,Cincinnati,Connecticut,41,16,14.5,None
+0,Navy,Toledo,44,45,9.5,None
+0,Florida,Missouri,17,36,-3.0,None
+0,Georgia Tech,Syracuse,56,0,8.0,None
+0,Akron,"Miami, OH",24,17,6.0,None
+0,Army,Temple,14,33,-1.0,None
+0,E. Michigan,Ohio,28,56,14.0,None
+0,Ball State,W. Michigan,38,17,19.0,None
+0,Colorado State,Wyoming,52,22,-7.0,None
+0,C. Michigan,N. Illinois,17,38,15.0,None
+0,Kent State,South Alabama,21,38,7.5,None
+0,Iowa,Ohio State,24,34,19.0,None
+0,Auburn,Texas A&M,45,41,-12.5,None
+0,Stanford,UCLA,24,10,4.0,None
+0,Kansas,Oklahoma,19,34,21.0,None
+0,Indiana,Michigan,47,63,9.0,None
+0,Maryland,Wake Forest,10,34,-4.5,None
+0,BYU,Houston,47,46,10.0,None
+0,Duke,Virginia,35,22,-2.5,None
+0,Buffalo,Massachusetts,32,3,19.5,None
+0,La. Tech,North Texas,13,28,3.5,None
+0,Arizona State,Washington,53,24,3.5,None
+0,Alabama,Arkansas,52,0,30.0,None
+0,LSU,Mississippi  ,24,27,-10.0,None
+0,Baylor,Iowa State,71,7,32.0,None
+0,Notre Dame,Southern Cal,14,10,3.0,None
+0,Clemson,Florida State,14,51,4.5,None
+0,Illinois,Wisconsin,32,56,14.5,None
+0,Boise State,Nevada,34,17,24.0,None
+0,New Mexico State,Rice,19,45,18.0,None
+0,New Mexico,Utah State,10,45,13.5,None
+0,Oregon,Washington State,62,38,40.0,None
+0,Fresno State,UNLV,38,14,25.5,None
+0,Arizona,Utah,35,24,3.5,None
+0,California,Oregon State,17,49,11.5,None
+0,Arkansas State,La.-Lafayette,7,23,1.0,None
+0,Kentucky,Mississippi State,22,28,12.0,None
+0,MTSU,Marshall,51,49,-9.5,None
+0,BYU,Boise State,37,20,7.0,None
+0,"Miami, FL",Wake Forest,24,21,26.0,None
+0,Iowa State,Oklahoma State,27,58,13.5,None
+0,Louisville,South Florida,34,3,20.0,None
+0,Connecticut,UCF,17,62,24.0,None
+0,Minnesota,Nebraska,34,23,-11.0,None
+0,Houston,Rutgers,49,14,-6.0,None
+0,Akron,Ball State,24,42,10.0,None
+0,Iowa,Northwestern,17,10,4.0,None
+0,Texas A&M,Vanderbilt,56,24,17.5,None
+0,Georgia Tech,Virginia,35,25,10.5,None
+0,Navy,Pittsburgh,24,21,-4.5,None
+0,"Miami, OH",Ohio,16,41,26.0,None
+0,Bowling Green,Toledo,25,28,-4.0,None
+0,Massachusetts,W. Michigan,30,31,-4.0,None
+0,SMU,Temple,59,49,10.0,None
+0,Alabama,Tennessee,45,10,28.0,None
+0,Florida State,N.C. State,49,17,35.0,None
+0,Clemson,Maryland,40,27,17.0,None
+0,Duke,Virginia Tech,13,10,-12.5,None
+0,E. Michigan,N. Illinois,20,59,31.5,None
+0,Boston College,North Carolina,10,34,5.5,None
+0,Rice,UTEP,45,7,19.0,None
+0,Illinois,Michigan State,3,42,8.0,None
+0,Buffalo,Kent State,41,21,3.0,None
+0,Tulane,Tulsa,14,7,-3.0,None
+0,Kansas State,West Virginia,35,12,13.0,None
+0,Southern Cal,Utah,19,3,4.5,None
+0,Troy,W. Kentucky,32,26,-10.5,None
+0,Oklahoma,Texas Tech,38,30,7.0,None
+0,Air Force,Notre Dame,10,45,20.0,None
+0,FIU,La. Tech,7,23,4.5,None
+0,Nevada,UNLV,22,27,-6.5,None
+0,Oregon,UCLA,42,14,24.0,None
+0,Missouri,South Carolina,24,27,-3.0,None
+0,Baylor,Kansas,59,14,35.0,None
+0,San Jose State,Wyoming,51,44,10.5,None
+0,South Alabama,Texas State,31,33,-2.5,None
+0,North Texas,Southern Miss,55,14,12.5,None
+0,Auburn,FAU,45,10,23.0,None
+0,Idaho,Mississippi,14,59,41.5,None
+0,TCU,Texas,7,30,-3.0,None
+0,Ohio State,Penn State,63,14,16.5,None
+0,Arizona,Colorado,44,20,13.0,None
+0,Oregon State,Stanford,12,20,4.0,None
+0,Fresno State,San Diego State,35,28,7.0,None
+0,California,Washington,17,41,28.0,None
+0,Colorado State,Hawaii,35,28,2.0,None
+0,Cincinnati,Memphis,34,21,2.5,None
+0,Houston,South Florida,35,23,19.5,None
+0,North Texas,Rice,28,16,2.5,None
+0,La.-Monroe,Troy,49,37,-3.0,None
+0,Arizona State,Washington State,55,21,11.0,None
+0,Oregon State,Southern Cal,14,31,-5.5,None
+0,Ohio State,Purdue,56,0,32.0,None
+0,Massachusetts,N. Illinois,19,63,28.0,None
+0,Iowa,Wisconsin,9,28,9.0,None
+0,Boston College,Virginia Tech,34,27,-4.0,None
+0,Rutgers,Temple,23,20,12.5,None
+0,Illinois,Penn State,17,24,13.0,None
+0,Marshall,Southern Miss,61,13,32.0,None
+0,Air Force,Army,42,28,-0.0,None
+0,Mississippi State,South Carolina,16,34,13.0,None
+0,N.C. State,North Carolina,19,27,5.0,None
+0,Syracuse,Wake Forest,13,0,4.0,None
+0,MTSU,UAB,24,21,3.5,None
+0,Clemson,Virginia,59,10,18.0,None
+0,Michigan,Michigan State,6,29,4.5,None
+0,Navy,Notre Dame,34,38,16.5,None
+0,Arizona,California,33,28,15.5,None
+0,Florida,Georgia  ,20,23,3.5,None
+0,Indiana,Minnesota,39,42,-7.5,None
+0,Nebraska,Northwestern,27,24,4.0,None
+0,Kansas,Texas,13,35,27.0,None
+0,Akron,Kent State,16,7,2.0,None
+0,Iowa State,Kansas State,7,41,17.0,None
+0,TCU,West Virginia,27,30,-11.0,None
+0,Hawaii,Utah State,10,47,24.0,None
+0,San Jose State,UNLV,34,24,5.0,None
+0,Idaho,Texas State,21,37,11.0,None
+0,La.-Lafayette,New Mexico State,49,35,32.5,None
+0,FAU,Tulane,34,17,2.5,None
+0,Arkansas,Auburn,17,35,9.5,None
+0,East Carolina,FIU,34,13,27.0,None
+0,Missouri,Tennessee,31,3,11.0,None
+0,Oklahoma State,Texas Tech,52,34,2.0,None
+0,Georgia Tech,Pittsburgh,21,10,11.5,None
+0,E. Michigan,Toledo,16,55,30.5,None
+0,Colorado,UCLA,23,45,30.5,None
+0,Arkansas State,South Alabama,17,16,-3.0,None
+0,Florida State,"Miami, FL",41,14,21.0,None
+0,New Mexico,San Diego State,30,35,14.0,None
+0,Boise State,Colorado State,42,30,7.0,None
+0,Texas A&M,UTEP,57,7,47.5,None
+0,Fresno State,Nevada,41,23,21.5,None
+0,Bowling Green,"Miami, OH",45,3,24.0,None
+0,Buffalo,Ohio,30,3,4.0,None
+0,Ball State,C. Michigan,44,24,21.0,None
+0,Baylor,Oklahoma  ,41,12,16.5,None
+0,La.-Lafayette,Troy,41,36,14.0,None
+0,Oregon  ,Stanford,20,26,-10.5,None
+0,Connecticut,Louisville,10,31,28.0,None
+0,Air Force,New Mexico,37,45,3.0,None
+0,Florida State,Wake Forest,59,3,34.0,None
+0,Auburn,Tennessee,55,23,7.5,None
+0,Kentucky,Missouri,17,48,14.5,None
+0,Kansas State,Texas Tech,49,26,-2.5,None
+0,Florida,Vanderbilt,17,34,-12.0,None
+0,Iowa State,TCU,17,21,7.5,None
+0,Minnesota,Penn State,24,10,3.0,None
+0,Marshall,UAB,56,14,24.0,None
+0,Army,W. Kentucky,17,21,6.0,None
+0,Cincinnati,SMU,28,25,7.0,None
+0,Iowa,Purdue,38,14,16.0,None
+0,Arkansas,Mississippi,24,34,17.0,None
+0,North Carolina,Virginia,45,14,13.0,None
+0,E. Michigan,W. Michigan,35,32,-2.5,None
+0,California,Southern Cal,28,62,18.5,None
+0,Mississippi State,Texas A&M,41,51,19.5,None
+0,BYU,Wisconsin,17,27,9.5,None
+0,Colorado State,Nevada,38,17,8.5,None
+0,Illinois,Indiana,35,52,9.5,None
+0,Maryland,Syracuse,3,20,-6.0,None
+0,Michigan,Nebraska,13,17,-6.0,None
+0,Boston College,New Mexico State,48,34,25.0,None
+0,North Texas,UTEP,41,7,27.0,None
+0,Hawaii,Navy,28,42,17.0,None
+0,East Carolina,Tulsa,58,24,16.0,None
+0,Kansas,Oklahoma State,6,42,31.5,None
+0,Arizona State,Utah,20,19,7.0,None
+0,Duke,N.C. State,38,20,10.5,None
+0,FIU,MTSU,0,48,19.5,None
+0,"Miami, FL",Virginia Tech,28,42,-5.0,None
+0,Houston,UCF,19,19,13.5,None
+0,Texas,West Virginia,47,40,6.5,None
+0,La. Tech,Southern Miss,36,13,17.0,None
+0,Arkansas State,La.-Monroe,42,14,-3.0,None
+0,Alabama,LSU,38,17,14.0,None
+0,Notre Dame,Pittsburgh,21,28,-4.5,None
+0,Colorado,Washington,7,59,30.0,None
+0,UNLV,Utah State,24,28,16.0,None
+0,Arizona,UCLA,26,31,-1.5,None
+0,Fresno State,Wyoming,48,10,8.0,None
+0,San Diego State,San Jose State,34,30,-6.5,None
+0,Bowling Green,Ohio,49,0,8.5,None
+0,Buffalo,Toledo,41,51,5.5,None
+0,Ball State,N. Illinois,27,48,8.5,None
+0,Kent State,"Miami, OH",24,6,18.5,None
+0,Clemson,Georgia Tech,55,31,10.5,None
+0,Marshall,Tulsa,45,34,13.0,None
+0,UCLA,Washington,41,31,3.0,None
+0,Illinois,Ohio State,35,60,34.0,None
+0,Temple,UCF,36,39,17.5,None
+0,Iowa State,Oklahoma,10,48,24.0,None
+0,Indiana,Wisconsin,3,51,27.0,None
+0,Mississippi,Troy,51,21,28.0,None
+0,Cincinnati,Rutgers,52,17,-0.0,None
+0,Penn State,Purdue,45,21,21.5,None
+0,Kansas  ,West Virginia,31,19,-7.0,None
+0,C. Michigan,W. Michigan,27,22,3.0,None
+0,Kentucky,Vanderbilt,6,22,11.5,None
+0,Boston College,N.C. State,38,21,7.0,None
+0,North Carolina,Pittsburgh,34,27,-1.0,None
+0,Maryland,Virginia Tech,27,24,-14.5,None
+0,FAU,Southern Miss,41,7,17.0,None
+0,Akron,Massachusetts,14,13,7.0,None
+0,Arizona,Washington State,17,24,-11.0,None
+0,East Carolina,UAB,63,14,28.0,None
+0,Connecticut,SMU,21,38,14.5,None
+0,Florida State,Syracuse,59,3,38.0,None
+0,Auburn,Georgia,43,38,3.5,None
+0,Oklahoma State,Texas,38,13,3.0,None
+0,Michigan State,Nebraska,41,28,5.5,None
+0,Duke,"Miami, FL",48,30,-3.5,None
+0,Michigan,Northwestern,27,19,-3.0,None
+0,Kansas State,TCU,33,31,12.0,None
+0,Navy,South Alabama,42,14,7.0,None
+0,Oregon,Utah,44,21,28.5,None
+0,California,Colorado,24,41,1.0,None
+0,Florida,South Carolina,14,19,16.0,None
+0,Houston,Louisville,13,20,17.0,None
+0,Memphis,South Florida,23,10,1.5,None
+0,Colorado State,New Mexico,66,42,7.0,None
+0,La. Tech,Rice,14,52,14.5,None
+0,Baylor,Texas Tech,63,34,28.0,None
+0,Arkansas State,Texas State,38,21,7.5,None
+0,Alabama,Mississippi State,20,7,23.5,None
+0,Southern Cal,Stanford,20,17,-4.0,None
+0,FIU,UTEP,10,33,6.0,None
+0,Arizona State,Oregon State,30,17,13.5,None
+0,Boise State,Wyoming,48,7,24.0,None
+0,Hawaii,San Diego State,21,28,5.5,None
+0,Nevada,San Jose State,38,16,-6.5,None
+0,Buffalo,"Miami, OH",44,7,24.5,None
+0,Kent State,Ohio,44,13,-7.0,None
+0,N. Illinois,Toledo,35,17,2.5,None
+0,Rutgers,UCF,17,41,20.0,None
+0,Rice,UAB,37,34,18.0,None
+0,Air Force,UNLV,21,41,-2.0,None
+0,Navy,San Jose State,58,52,-1.0,None
+0,Michigan State,Northwestern,30,6,6.5,None
+0,Kansas State,Oklahoma,31,41,5.0,None
+0,Louisville,Memphis,24,17,23.0,None
+0,Duke,Wake Forest,28,21,7.0,None
+0,Cincinnati,Houston,24,17,-2.5,None
+0,Iowa,Michigan,24,21,6.0,None
+0,"Miami, FL",Virginia,45,26,20.5,None
+0,Illinois,Purdue,20,16,6.5,None
+0,Arkansas,Mississippi State,17,24,2.5,None
+0,East Carolina,N.C. State,42,28,4.5,None
+0,Pittsburgh,Syracuse,17,16,1.0,None
+0,C. Michigan,Massachusetts,37,0,13.0,None
+0,Bowling Green,E. Michigan,58,7,26.5,None
+0,Hawaii,Wyoming,56,59,6.5,None
+0,FAU,New Mexico State,55,10,23.0,None
+0,Florida State,Idaho,80,14,59.0,None
+0,Indiana,Ohio State,14,42,33.0,None
+0,Arizona,Oregon,42,16,-20.0,None
+0,LSU,Texas A&M,34,10,3.5,None
+0,Minnesota,Wisconsin,7,20,16.5,None
+0,BYU,Notre Dame,13,23,-1.0,None
+0,Nebraska,Penn State,23,20,-0.0,None
+0,Utah,Washington State,37,49,1.5,None
+0,Colorado State,Utah State,0,13,11.0,None
+0,MTSU,Southern Miss,42,21,24.0,None
+0,Tulane,UTEP,45,3,16.0,None
+0,California,Stanford,13,63,31.5,None
+0,Fresno State,New Mexico,69,28,34.0,None
+0,FIU,Marshall,10,48,31.5,None
+0,Arizona State,UCLA,38,33,3.0,None
+0,La.-Monroe,South Alabama,14,36,3.5,None
+0,SMU,South Florida,16,6,6.0,None
+0,Georgia,Kentucky,59,17,26.0,None
+0,Connecticut,Temple,28,21,-6.5,None
+0,Texas State,W. Kentucky,7,38,5.5,None
+0,La. Tech,Tulsa,14,24,2.5,None
+0,Tennessee,Vanderbilt,10,14,-2.5,None
+0,Mississippi,Missouri,10,24,2.5,None
+0,Baylor,Oklahoma State,17,49,-7.5,None
+0,Iowa State,Kansas,34,0,4.0,None
+0,Colorado,Southern Cal,29,47,20.5,None
+0,Boise State,San Diego State,31,34,-7.0,None
+0,Oregon State,Washington,27,69,-2.5,None
+0,N. Illinois,W. Michigan,33,14,35.5,None
+0,Texas,Texas Tech,41,16,6.0,None
+0,Mississippi,Mississippi State,10,17,-4.0,None
+0,Iowa,Nebraska,38,17,-3.0,None
+0,Houston,SMU,34,0,9.0,None
+0,East Carolina,Marshall,28,59,3.0,None
+0,Akron,Toledo,31,29,-11.0,None
+0,Ball State,"Miami, OH",55,14,35.0,None
+0,Bowling Green,Buffalo,24,7,3.5,None
+0,Massachusetts,Ohio,23,51,19.5,None
+0,C. Michigan,E. Michigan,42,10,17.5,None
+0,Texas State,Troy,28,42,8.5,None
+0,Arkansas,LSU,27,31,28.0,None
+0,FAU,FIU,21,6,28.0,None
+0,Fresno State,San Jose State,52,62,-11.0,None
+0,"Miami, FL",Pittsburgh,41,31,1.5,None
+0,Washington,Washington State,27,17,17.5,None
+0,Oregon,Oregon State,36,35,24.0,None
+0,South Florida,UCF,20,23,27.0,None
+0,Florida,Florida State,7,37,28.0,None
+0,Michigan,Ohio State,41,42,17.0,None
+0,Michigan State,Minnesota,14,3,17.0,None
+0,Duke,North Carolina,27,25,-4.5,None
+0,Connecticut,Rutgers,28,17,-2.5,None
+0,Memphis,Temple,21,41,-8.5,None
+0,Kansas,Kansas State,10,31,18.0,None
+0,Vanderbilt,Wake Forest,23,21,14.5,None
+0,Maryland,N.C. State,41,21,3.0,None
+0,Southern Miss,UAB,62,27,-14.5,None
+0,Air Force,Colorado State,13,58,17.5,None
+0,Utah State,Wyoming,35,7,24.0,None
+0,North Texas,Tulsa,42,10,4.0,None
+0,Rice,Tulane,17,13,10.0,None
+0,BYU,Nevada,28,23,15.5,None
+0,Alabama,Auburn,28,34,-10.0,None
+0,Baylor,TCU,41,38,14.0,None
+0,Penn State,Wisconsin,31,24,-25.0,None
+0,Georgia,Georgia Tech,41,34,3.0,None
+0,Indiana,Purdue,56,36,20.0,None
+0,Idaho,New Mexico State,16,24,3.0,None
+0,Boston College,Syracuse,31,34,-2.5,None
+0,Virginia,Virginia Tech,6,16,11.0,None
+0,Illinois,Northwestern,34,37,4.0,None
+0,MTSU,UTEP,48,17,24.0,None
+0,Arkansas State,W. Kentucky,31,34,6.0,None
+0,Iowa State,West Virginia,52,44,-7.5,None
+0,Clemson,South Carolina,17,31,2.5,None
+0,Notre Dame,Stanford,20,27,16.0,None
+0,Kentucky,Tennessee,14,27,4.0,None
+0,La.-Lafayette,La.-Monroe,38,31,-17.5,None
+0,Missouri,Texas A&M,28,21,4.5,None
+0,Southern Cal,UCLA,14,35,-4.5,None
+0,Arizona,Arizona State,21,58,10.0,None
+0,Boise State,New Mexico,45,17,37.5,None
+0,San Diego State,UNLV,19,45,-3.5,None
+0,Army,Hawaii,42,49,6.0,None
+0,Cincinnati,Louisville,24,31,3.0,None
+0,Bowling Green,N. Illinois,47,27,-3.0,None
+0,Oklahoma,Oklahoma State,33,24,-10.0,None
+0,SMU,UCF,13,17,14.0,None
+0,Marshall,Rice,24,41,-6.5,None
+0,Connecticut,Memphis,45,10,-1.5,None
+0,Baylor,Texas,30,10,17.0,None
+0,Auburn,Missouri,59,42,-2.0,None
+0,Rutgers,South Florida,31,6,4.0,None
+0,Arizona State,Stanford,14,38,-3.0,None
+0,Duke,Florida State,7,45,30.0,None
+0,La.-Lafayette,South Alabama,8,30,3.0,None
+0,Michigan State,Ohio State,34,24,-5.5,None
+0,Fresno State,Utah State,24,17,3.0,None
+0,Army,Navy,7,34,13.5,None
+0,Colorado State,Washington State,48,45,-4.0,None
+0,Fresno State,Southern Cal,20,45,4.5,None
+0,Buffalo,San Diego State,24,49,-1.0,None
+0,La.-Lafayette,Tulane,24,21,-1.0,None
+0,East Carolina,Ohio,37,20,14.0,None
+0,Boise State,Oregon State,23,38,4.5,None
+0,Bowling Green,Pittsburgh,27,30,-7.0,None
+0,N. Illinois,Utah State,14,21,2.0,None
+0,Marshall,Maryland,31,20,2.5,None
+0,Minnesota,Syracuse,17,21,-3.5,None
+0,BYU,Washington  ,16,31,5.5,None
+0,Notre Dame,Rutgers,29,16,15.0,None
+0,Cincinnati,North Carolina,17,39,3.0,None
+0,Louisville,"Miami, FL",36,9,5.5,None
+0,Kansas State,Michigan,31,14,7.0,None
+0,MTSU,Navy,6,24,7.0,None
+0,Georgia Tech,Mississippi,17,25,2.5,None
+0,Oregon,Texas,30,7,15.0,None
+0,Arizona State,Texas Tech,23,37,-17.0,None
+0,Arizona,Boston College,42,19,7.0,None
+0,UCLA,Virginia Tech,42,12,7.0,None
+0,Mississippi State,Rice,44,7,7.0,None
+0,Duke,Texas A&M,48,52,13.5,None
+0,Georgia  ,Nebraska,19,22,-9.5,None
+0,North Texas,UNLV,36,14,6.0,None
+0,South Carolina,Wisconsin,34,24,-1.5,None
+0,Iowa  ,LSU,14,21,8.0,None
+0,Michigan State,Stanford,24,20,-7.0,None
+0,Baylor,UCF,42,52,-16.5,None
+0,Alabama,Oklahoma,31,45,-17.0,None
+0,Missouri,Oklahoma State,41,31,-3.0,None
+0,Clemson,Ohio State,40,35,-3.0,None
+0,Houston,Vanderbilt,24,41,1.5,None
+0,Arkansas State,Ball State,23,20,-7.0,None
+0,Auburn,Florida State,31,34,10.5,None
