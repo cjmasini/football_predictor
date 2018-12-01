@@ -6,8 +6,7 @@ def readin():
     stat_file = open('./2012-2018_data_matrix.csv','r')
     next(stat_file, None)    #remove header
     stats=[]
-    for line in stat_file:
-        
+    for line in stat_file:       
         line = line.strip().split(",")[-1:-67:-1]
         line = np.array(list(map(float,line)))    #only take the score part
         #line = line - np.mean(line)
