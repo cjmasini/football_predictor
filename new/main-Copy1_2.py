@@ -255,21 +255,36 @@ def train_networks(networks, x_train, y_train, x_test, y_test):
 
 def get_average_accuracy(networks):
     total_accuracy = 0
+    nans = 0
     for network in networks:
-        total_accuracy += network.accuracy
+        if not math.isnan(network.accuracy):
+            total_accuracy += network.accuracy
+        else:
+            nans += 1
 
-    return total_accuracy / len(networks)
+    return total_accuracy / (len(networks)-nans)
+
+def get_best_accuracy(networks):
+    best_accuracy = 0
+    for network in networks:
+        if network.accuracy >= best_accuracy:
+            best_accuracy = network.accuracy
+    return best_accuracy
 
 def generate(generations, population, nn_param_choices, x_train, y_train, x_test, y_test):
     fitness_history = []
+    best_history = []
     networks = create_population(population,nn_param_choices)
     # Evolve the generation.
     for i in range(generations):
         print("this is "+str(i)+"th generation:")
         train_networks(networks, x_train, y_train, x_test, y_test)
         average_accuracy = get_average_accuracy(networks)
+        best_accuracy = get_best_accuracy(networks)
         print("average_accuracy= "+str(average_accuracy))
+        print("best_accuracy="+str(best_accuracy))
         fitness_history.append(average_accuracy)
+        best_history.append(best_accuracy)
         if i != generations - 1:
             networks = evolve(networks,nn_param_choices)
 
@@ -278,7 +293,7 @@ def generate(generations, population, nn_param_choices, x_train, y_train, x_test
     for individual in networks:
         print(individual.network)
         print(individual.accuracy)
-    return  fitness_history
+    return  fitness_history, best_history
 
 
 
@@ -304,9 +319,15 @@ nn_param_choices = {'nb_neurons': [16, 32, 64, 128],
                     'activation': ['relu', 'elu', 'tanh', 'sigmoid'],
                     'optimizer': ['rmsprop', 'adam', 'sgd', 'adagrad','adadelta', 'adamax', 'nadam'],}
 
-fitness_history = generate(generations, population,
+fitness_history, best_history = generate(generations, population,
                            nn_param_choices,x_train, y_train, x_test, y_test)
 plt.plot(fitness_history)
+plt.xlabel("generations",fontsize=20)
+plt.ylabel("fitness score",fontsize=20)
+plt.show()
+
+
+plt.plot(best_history)
 plt.xlabel("generations",fontsize=20)
 plt.ylabel("fitness score",fontsize=20)
 plt.show()
