@@ -7,6 +7,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import random
+import math
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 import pandas as pd
@@ -47,9 +48,6 @@ class Network():
         self.accuracy = 0.
         self.nn_param_choices = nn_param_choices
         self.network = {}  # (dic): represents MLP network parameters
-        self.prediction_compare = pd.DataFrame()
-        self.best_network = {}
-        self.best_score = 0
 
 
 
@@ -150,26 +148,9 @@ class Network():
 
         print(self.network)
         score =score/x_test.shape[0]
-        if score > self.best_score:
-            self.best_score = score
-            self.best_network = self.network
-            self.prediction_compare = prediction_compare
-            print("Best network:",self.best_network)
-            print("Best score:",score)
-            print(ps)
-            ps2=""
-            ps2+=("Accuracy = "+str(win_acc))+'\n'
-            ps2+=("Score Difference = "+str(score_diff))+'\n'
-            ps2+=("Score Difference Standard Deviation = "+str(std))+'\n'
-            ps2+=("Over/Under = " +str(score_diff_sum))+'\n'
-            ps2+=("Over/Under Standard Deviation = "+str(std_sum))+'\n'
-            ps2+=("spread = "+str(avg_spread))+'\n'
-            ps2+=("spread std = "+str(std_spread))+'\n'
-            print(ps2)
-            self.printString = ps + '\n' + ps2
-            prediction_compare.to_csv("prediction_compare.csv")
         print("score = "+str(score))
         self.accuracy = score
+        prediction_compare.to_csv("prediction_compare.csv")
 
 # In[2]:
 
