@@ -94,6 +94,7 @@ class Network():
         std = 0.0
         std_sum = 0.0
         avg_spread = 0.0
+        std_spread = 0.0
         vegas = pd.read_csv("../2012-2018_vegas_predictions.csv")
         for i in range(x_train.shape[0]):
             if (pred_train[i][0]-pred_train[i][1])*(y_train[i][0]-y_train[i][1])>0:
@@ -105,6 +106,9 @@ class Network():
             std_sum += (pred_train[i][0] - y_train[i][0] + pred_train[i][1] - y_train[i][1])**2
             prediction_compare = prediction_compare.append(pd.DataFrame({'actual_1': y_train[i][0], 'actual_2': y_train[i][1], 'pred_1': pred_train[i][0], 'pred_2': pred_train[i][1], 'spread': vegas.iloc[i].spread, 'over_under': vegas.iloc[i].spread}, index=[i]))
 
+            avg_spread += abs((pred_train[i][0] - pred_train[i][1]) - (y_train[i][0] -y_train[i][1]))
+            std_spread += ((pred_train[i][0] - pred_train[i][1]) - (y_train[i][0] -y_train[i][1]))**2
+
         win_acc/=x_train.shape[0]
         score_diff /= x_train.shape[0]
         std /= x_train.shape[0]
@@ -114,14 +118,17 @@ class Network():
         std_sum /= x_train.shape[0]
         std_sum = std_sum**0.5
 
+        avg_spread /= x_train.shape[0]
+        std_spread /= x_train.shape[0]
+        std_spread = std_sum**0.5
 
-
-
-        print("win_acc = "+str(win_acc))
-        print("score_diff = "+str(score_diff))
-        print("std = "+str(std))
-        print("score_diff_sum = " +str(score_diff_sum))
-        print("std_sum = "+str(std_sum))
+        print("Accuracy = "+str(win_acc))
+        print("Score Difference = "+str(score_diff))
+        print("Score Difference Standard Deviation = "+str(std))
+        print("Over/Under = " +str(score_diff_sum))
+        print("Over/Under Standard Deviation = "+str(std_sum))
+        print("spread = "+str(avg_spread))
+        print("spread std = "+str(std_spread))
 
         # define accuracy score (fitness score):
         score = 0
@@ -150,16 +157,19 @@ class Network():
             print("Best network:",self.best_network)
             print("Best score:",score)
             print(ps)
+            ps2=""
+            ps2+=("Accuracy = "+str(win_acc))+'\n'
+            ps2+=("Score Difference = "+str(score_diff))+'\n'
+            ps2+=("Score Difference Standard Deviation = "+str(std))+'\n'
+            ps2+=("Over/Under = " +str(score_diff_sum))+'\n'
+            ps2+=("Over/Under Standard Deviation = "+str(std_sum))+'\n'
+            ps2+=("spread = "+str(avg_spread))+'\n'
+            ps2+=("spread std = "+str(std_spread))+'\n'
+            print(ps2)
+            self.printString = ps + '\n' + ps2
             prediction_compare.to_csv("prediction_compare.csv")
         print("score = "+str(score))
         self.accuracy = score
-
-
-
-        print()
-
-
-
 
 # In[2]:
 
