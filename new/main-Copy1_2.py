@@ -125,8 +125,10 @@ class Network():
 
         # define accuracy score (fitness score):
         score = 0
+        ps = ""
         for i in range(x_test.shape[0]):
-
+            ps += "predicted: "+str(pred[i][0])+" vs "+str(pred[i][1])
+            ps += "actual: "+str(y_test[i][0])+" vs "+str(y_test[i][1])+'\n'
             print("predicted: "+str(pred[i][0])+" vs "+str(pred[i][1]))
             print("actual: "+str(y_test[i][0])+" vs "+str(y_test[i][1]))
             pred_diff = (pred[i][0]-pred[i][1])/(pred[i][0]+pred[i][1])
@@ -147,6 +149,7 @@ class Network():
             self.prediction_compare = prediction_compare
             print("Best network:",self.best_network)
             print("Best score:",score)
+            print(ps)
             prediction_compare.to_csv("prediction_compare.csv")
         print("score = "+str(score))
         self.accuracy = score
