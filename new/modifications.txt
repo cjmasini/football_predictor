@@ -1,0 +1,5 @@
+You can change:
+
+epoch at line 88
+
+generation and population at line 244 and 245
