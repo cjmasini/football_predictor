@@ -102,7 +102,7 @@ class Network():
 
             score_diff_sum += abs(pred_train[i][0] - y_train[i][0] + pred_train[i][1] - y_train[i][1])
             std_sum += (pred_train[i][0] - y_train[i][0] + pred_train[i][1] - y_train[i][1])**2
-            prediction_compare = prediction_compare.append(pd.DataFrame({'actual_1': y_train[i][0], 'actual_2': y_train[i][1], 'pred_1': pred_train[i][0], 'pred_2': pred_train[i][1], 'spread': vegas.iloc[i].spread, 'over_under': vegas.iloc[i].spread}, index=[i]))
+            prediction_compare = prediction_compare.append(pd.DataFrame({'actual_1': y_train[i][0], 'actual_2': y_train[i][1], 'pred_1': pred_train[i][0], 'pred_2': pred_train[i][1], 'spread': vegas.iloc[i].spread, 'over_under': vegas.iloc[i].over_under, 'team_1': vegas.iloc[i].id0, 'team_2': vegas.iloc[i].id1, 'points_0': vegas.iloc[i].points_0, 'points_1': vegas.iloc[i].points_1}, index=[i]))
 
             avg_spread += abs((pred_train[i][0] - pred_train[i][1]) - (y_train[i][0] -y_train[i][1]))
             std_spread += ((pred_train[i][0] - pred_train[i][1]) - (y_train[i][0] -y_train[i][1]))**2
@@ -291,7 +291,7 @@ def generate(generations, population, nn_param_choices, x_train, y_train, x_test
 
 x_train, x_test, y_train, y_test = readin()
 
-generations = 20  # Number of times to evole the population.
+generations = 40  # Number of times to evole the population.
 population = 20  # Number of networks in each generation.
 
 
